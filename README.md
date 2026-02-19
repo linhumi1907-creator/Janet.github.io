@@ -1,0 +1,230 @@
+Put your HTML text here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đỗ Khánh Linh | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;700&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --hot-pink: #ff85a1;
+            --soft-pink: #fbb1bd;
+            --cream: #f9f7f2;
+            --dark-text: #4a4a4a;
+        }
+
+        body {
+            background-color: var(--cream);
+            color: var(--dark-text);
+            font-family: 'Space Grotesk', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .main-wrapper {
+            max-width: 850px;
+            margin: 40px auto;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 15px 15px 0px var(--soft-pink);
+            padding: 50px;
+        }
+
+        /* Header Style */
+        header {
+            text-align: left;
+            border-bottom: 2px dashed var(--soft-pink);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        .hi-text {
+            font-size: 1.1rem;
+            color: var(--dark-text);
+            margin: 0;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 5rem;
+            color: var(--hot-pink);
+            margin: 10px 0;
+            line-height: 1;
+        }
+
+        .tagline {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #888;
+        }
+
+        /* Content Sections */
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.8rem;
+            color: var(--hot-pink);
+            margin-top: 40px;
+        }
+
+        .section-content {
+            margin-bottom: 30px;
+        }
+
+        .education-box {
+            background: #fffafa;
+            border-left: 5px solid var(--hot-pink);
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+
+        /* Experience Styling */
+        .exp-block {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+
+
+        .exp-title {
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: block;
+        }
+
+        .exp-sub {
+            color: var(--hot-pink);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .exp-desc {
+            margin-top: 8px;
+            font-size: 0.95rem;
+        }
+
+        /* Skills Pills */
+        .skills-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            background: var(--soft-pink);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 25px;
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+
+        /* Footer Wrap-up */
+        .wrap-up {
+            margin-top: 60px;
+            background: #ffe5ec;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .wrap-up::before {
+            content: "and that's a wrap.";
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: var(--hot-pink);
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .contact-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .main-wrapper { padding: 20px; margin: 10px; }
+            h1 { font-size: 3.5rem; }
+            .contact-grid { flex-direction: column; gap: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <header>
+        <p class="hi-text">Hi. Since you're new here, let me be your tour guide.</p>
+        <h1>Đỗ Khánh Linh</h1>
+        <p class="tagline">Logistic Student | Communication Enthusiast | Content Creator</p>
+    </header>
+
+    <div class="section-content">
+        <h2>About me</h2>
+        <p>I'm a proactive and socially engaged student with a strong interest in communications, social activities, and event participation. I enjoy connecting with people, contributing to meaningful projects, and learning through real-life experiences. I aim to grow as a young leader and develop my potential in both soft skills and academic knowledge within my field of study.</p>
+    </div>
+
+    <div class="section-content">
+        <h2>Education</h2>
+        <div class="education-box">
+            <strong>2024 - Now</strong><br>
+            Logistics & International Trade @ Thương Mại University 
+        </div>
+    </div>
+
+    <div class="section-content">
+        <h2>Experience</h2>
+        
+        <div class="exp-block">
+            <span class="exp-title">Founder - Triangle Project</span>
+            <span class="exp-sub">Jun 2023 - Now | Criminal Psychology & Mental Health NGO</span>
+            <p class="exp-desc">Initiated and led a youth-led nonprofit to raise mental health awareness among Vietnamese students. Produced content on criminal psychology, attracting nearly 4,000 followers, and successfully organized a psychology talk show with professionals.</p>
+        </div>
+
+        <div class="exp-block">
+            <span class="exp-title">Communications & External Relations Collaborator</span>
+            <span class="exp-sub">Jan 2025 - Jun 2025 | Global Student Fashion Week </span>
+            <p class="exp-desc">Coordinated partnerships with nearly 20 international beauty pageant winners (Misses & Misters). Managed bilingual promotional content and ensured consistent branding across media platforms.</p>
+        </div>
+
+        <div class="exp-block">
+            <span class="exp-title">Communications Member - Student Union</span>
+            <span class="exp-sub">2024 - Now | Thuongmai University </span>
+            <p class="exp-desc">Served on the Organizing Committee for "Sea of Hope," the university's largest annual music night with over 1,000 attendees. Produced media content and assisted in various annual student events.</p>
+        </div>
+
+        <div class="exp-block">
+            <span class="exp-title">Collaborator - SEABA U16 Basketball Championship</span>
+            <span class="exp-sub">May 2025 | FIBA Vietnam</span>
+            <p class="exp-desc">Supported media operations and logistics for the Southeast Asian U16 basketball tournament, ensuring coordination between departments.</p>
+        </div>
+    </div>
+
+    <div class="section-content">
+        <h2>Skills & Works</h2>
+        <div class="skills-wrap">
+            <span class="skill">Leadership </span>
+            <span class="skill">Creativity </span>
+            <span class="skill">Teamwork & Collaboration </span>
+            <span class="skill">Negotiation </span>
+            <span class="skill">Critical Thinking </span>
+            <span class="skill">Research & Content Development </span>
+            <span class="skill">Edit Photo and Video </span>
+        </div>
+    </div>
+
+    <div class="wrap-up">
+        <div class="contact-grid">
+            <span>📞 (+84) 0961482006 </span>
+            <span>✉️ linhumi1907@gmail.com </span>
+            <span>🌐 Vice Secretary - Class Youth Union </span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
